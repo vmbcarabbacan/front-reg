@@ -1,0 +1,136 @@
+/* placeholder */
+@mixin input-placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+$breakpoints: (
+  'min-desktop-large': (min-width: 1900px),
+  'max-desktop-large': (max-width: 1899px),
+
+);
+
+@mixin breakpoint($name) {
+    @if map-has-key($breakpoints, $name) {
+      @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+  @else {
+    @warn "Couldn't find a breakpoint named `#{$name}`.";
+  }
+}	
+
+@function rgb($r, $g: null, $b: null ) {
+  @if ($g == null) {
+    @return unquote('rgb(#{$r})');
+  }
+
+  @if ($g and $b) {
+    @return unquote('rgb(#{$r}, #{$g}, #{$b})');
+  }
+
+  @error "wrong number of arguments";
+}
+
+@function rgba($r, $g, $b: null, $a: null ) {
+  @if ($b == null) {
+    @return unquote('rgba(#{$r}, #{$g})');
+  }
+
+  @if ($b and $a) {
+    @return unquote('rgba(#{$r}, #{$g}, #{$b}, #{$a})');
+  }
+
+  @error "wrong number of arguments";
+}
+
+// Opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+// Transition
+@mixin transition($what: all, $time: 0.5s, $how: ease-in-out) {
+  transition: $what $time $how;
+}
+
+// rgba Border
+@mixin border-rgba ($color, $opacity) {
+  border: 1px solid rgba(red($color), green($color), blue($color), $opacity);
+}
+
+// Background Color rgba
+@mixin background-color-rgba($color, $opacity) {
+  background-color: rgba($color, $opacity);
+}
+
+// Color rgba
+@mixin color-rgba($color, $opacity) {
+  color: rgba($color, $opacity);
+}
+
+// Horizontal and Center Align using Transform
+@mixin horizontal-center-transform {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin vertical-center-transform {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin horizontal-vertical-center-transform {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin flex_conter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin margin_50{
+  @include breakpoint(min-desktop-large){
+    margin-bottom: 5rem;
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1899px){
+    margin-bottom: 4rem;
+    }
+    @include media-breakpoint-down(lg){
+        margin-bottom: 2.5rem;
+    }
+}
+
+@mixin font_14{
+  @include breakpoint(min-desktop-large){
+    font-size: 14.5px;
+  }
+  @include breakpoint(max-desktop-large){
+    font-size: 13.5px;
+  }
+}
+
+@mixin font_16{
+  @include breakpoint(min-desktop-large){
+    font-size: 16.5px;
+  }
+  @include breakpoint(max-desktop-large){
+    font-size: 14px;
+  }
+}
+

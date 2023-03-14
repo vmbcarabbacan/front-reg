@@ -1,0 +1,334 @@
+.footer{
+    p{
+        @include font_14;
+        opacity: 0.7;
+        font-weight: 300;
+    }
+    background-color: #070738;
+    padding-top: 5.7rem;
+    & .container > div:not(:last-child){
+        @include media-breakpoint-up(md){
+        border-bottom: 1px solid rgb(255 255 255/10%);
+    }
+}
+    &-top{
+        .contact-list_item{
+        &:hover{
+            p{
+                opacity: 1;
+            }
+        }
+        
+    }
+
+        &_row{
+            .footer-col-first{
+                @include media-breakpoint-up(xl){
+                    width: 32.633333%;
+                }
+            }
+           & > .row > div[class*="col-"]:not(:last-child){
+                @include media-breakpoint-down(md){
+                margin-bottom: 4rem;
+                }
+            }
+            &_item{
+                @include media-breakpoint-only(md){
+                    margin-bottom: 4rem;
+                }
+                .need-assitance{
+                    background: #0E0E58;
+                    border-radius: 14px;
+                    padding: 3.1rem 4.2rem 2.7rem;
+                    margin-bottom: 2.6rem;
+                    &_title{
+                        margin-bottom: 3rem;
+                        h5{
+                        font-size: 1.7rem;
+                    }
+                }
+                &_whatsapp{
+                    margin-bottom: 3rem;
+                    & > div:not(:last-child){
+                        margin-right: 2.3rem;
+                        padding-right: 2.3rem;
+                        @include media-breakpoint-only(lg){
+                            margin-right: 2.1rem;
+                        padding-right: 2.1rem;
+                        }
+                        border-right: 1px solid rgb(255 255 255 / 30%);
+                    }
+                    .content{
+                        a{
+                            font-size: 1.7rem;
+                            line-height: 2.3rem;
+                            font-weight: 300;
+                            display: block;
+                            span{
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+                .custom-button{
+                    .btn{
+                        &:hover{
+                            background-color: #0a9e43;
+                            color: #fff;
+                            border-color: #0a9e43;
+                        }
+                        background-color: #fff;
+                        border-color: #fff;
+                        color: #10106D;
+                        padding: 0.5rem 2.6rem 1px;
+                        @include media-breakpoint-only(lg){
+                            padding: 0.5rem 2rem 1px;
+                        }
+                    }
+                }
+                }
+            }
+        }
+        
+    }
+    &-middle{
+        padding-top: 2.6rem;
+        @include media-breakpoint-down(md){
+            padding-top: 4rem;
+        }
+        @include media-breakpoint-only(md){
+            padding-bottom: 2.6rem;
+        }
+    }
+    &-bottom{
+        .copyright{
+            p{
+                color: #fff;
+                transition: 0.2s all ease;
+               
+            }
+        }
+    }
+
+    .contact-list{
+        &_item{
+            &.email{
+                margin-bottom: 2.1rem;
+            }
+            &.head-office{
+                margin-bottom: 1.8rem;
+            }
+            &.corporate-solutions{
+                @include media-breakpoint-up(md){
+                margin-bottom: 3.3rem;
+                }
+            }
+            
+            p{
+                color: #fff;
+                transition: 0.2s all ease;
+            }
+            &_title{
+               margin-bottom: 0.5rem;
+            }
+            
+
+            .corporate-solutions{
+                background-color: #fff;
+                border-radius: 7px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                padding: 2.4rem 3.6rem 2rem 3.6rem;
+                .text{
+                    margin-right: 5.3rem;
+                    flex: 0 0 99px;
+                    p{
+                        color: #222261;  
+                        font-weight: 700;
+                        opacity: 0.8;
+                        text-transform: uppercase;
+                    }
+                }
+                .image{
+                    flex: 1;
+
+                }
+            }
+        }
+    }
+
+    &-bottom{
+        & > .row > div[class*="col"]:not(:last-child){
+            @include media-breakpoint-down(md){
+            margin-bottom: 2rem;
+            }
+        }
+       
+        padding: 2.6rem 0;
+    }
+
+    .social-icons{
+        a{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid rgb(255 255 255 / 30%);
+            @include flex_conter;
+            &:not(:last-child){
+                margin-right: 1.4rem;
+            }
+        }
+    }
+
+}
+
+.mobile-footer{
+    padding: 1.7rem 0;
+}
+
+.footer-top-list_row{
+    @include media-breakpoint-up(xl){
+        padding-left: 1rem;
+    }
+    .row{
+        &.gx-6{
+            @include breakpoint(min-desktop-large){
+                --bs-gutter-x: 7rem;
+            }
+        
+        
+        
+        }
+    }
+    .row > div[class*="col-"]:not(:last-child){
+        @include media-breakpoint-up(md){
+        border-right: 1px solid rgb(255 255 255/10%);
+    }
+}
+    @include media-breakpoint-down(md){
+ & > .row div[class*="col-"]:last-child{
+     .footer-top-list_block_item{
+         border-bottom: 0;
+     }
+ }
+}
+       
+    .footer-top-list_block{
+        @include media-breakpoint-up(md){
+        padding-bottom: 3rem;
+        }
+        
+        &_item{
+            &.calculators{
+                flex: 1;
+            }
+            &:not(:last-child){
+                @include media-breakpoint-up(md){
+                margin-bottom: 6.3rem; 
+                }
+               
+               
+            }
+            @include media-breakpoint-down(md){
+                border-bottom: 1px solid #E2EBFF;
+            }
+            h6{
+                @include breakpoint(min-desktop-large){
+                    font-size: 1.7rem;
+                }
+                
+                @media only screen and (min-width: 992px) and (max-width: 1899px){
+                    font-size: 1.5rem;
+                }
+                @include media-breakpoint-down(lg){
+                    font-size: 1.4rem;
+                }
+                @include media-breakpoint-down(md){
+                    padding: 20px 0px 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    color: #222261;
+                    align-items: center;
+                    span{
+                        font-size: 0.7rem;
+                        transition: 0.4s all ease;
+                        &:before{
+                            color: #D2D2D2;
+                        }
+                    }
+                    &.open{
+                        span{
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+                margin-bottom: 2rem;
+                text-transform: uppercase;
+                @include media-breakpoint-down(md){
+                    margin-bottom: 0;
+                }
+            }
+            ul{
+                list-style-type: none;
+                margin-bottom: 0;
+                padding-left: 0;
+                @include media-breakpoint-down(md){
+                    display: none;
+                    margin-bottom: 1.7rem;
+                }
+
+                li{
+                    &:hover{
+                       opacity: 1;
+                    }
+                    @include font_14;
+                    opacity: 0.7;
+                    font-weight: 300;
+                    transition: 0.3s all ease;
+                    @include media-breakpoint-down(md){
+                        color: #000;
+                    }
+                    &:not(:last-child){
+                        @include media-breakpoint-up(md){
+                        margin-bottom: 1.7rem;
+                        }
+                        
+                        @include media-breakpoint-down(md){
+                        margin-bottom: 1.3rem;
+                        }
+                    }
+                }
+            }
+            
+        }
+       
+    }
+
+.get-insured{
+    @include media-breakpoint-up(xl){
+    width: 31.833333%;
+    }
+}
+.company{
+    @include media-breakpoint-up(xl){
+        width: 31.733333%;
+    }
+}
+
+    }
+
+    .contact-list_item{
+        &_title{
+            p{
+                font-weight: 500;
+                letter-spacing: 0.4px;
+            }
+        }
+.disclaimer{
+    padding-bottom: 1.8rem;
+    p{
+        line-height: 28.26px;
+    }
+}
+    }

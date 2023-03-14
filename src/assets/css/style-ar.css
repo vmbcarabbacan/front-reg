@@ -1,0 +1,1879 @@
+header .container .navbar .header-right__contact__item.whats-app {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+header .container .navbar .header-right__contact__item.whats-app .header-icon {
+    margin-left: 2.9rem;
+}
+
+header .container .navbar .header-right__contact__item:not(:last-child):after {
+    display: none;
+}
+
+header .container .navbar .header-right__contact__item.call-app .header-icon:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    right: 0;
+    border: 1px solid #E2EBFF;
+    background: #FFFFFF;
+}
+
+
+header .container .navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu-block_row_row_listing_item_block .menu-title .icon {
+    margin-right: 1.5rem;
+    margin-left: 0;
+}
+
+header .container .navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu-block_row_row_listing_item_block .menu-title .icon img {
+    width: auto;
+}
+
+.form-insurance .first-column, .form-insurance .second-column {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.need-insurance-block .form-insurance .form-input .input-block-phone .phone-num .phone-input {
+    padding-right: 2rem;
+    padding-left: 0;
+}
+
+.need-insurance-block .form-insurance .form-input .input-block-phone .phone-num .phone-input:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 9px;
+    height: 20px;
+    width: 1px;
+    background-color: #DFDFDF;
+    opacity: 0.5;
+}
+
+.need-insurance-block .form-insurance .form-input .input-block-phone .phone-num .phone-input:after {
+    display: none;
+}
+
+.form-insurance .fifth-column {
+    margin-right: 10px;
+}
+
+.select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered {
+    padding-right: 20px;
+}
+
+.custom-button .btn .icon {
+    width: 22px;
+    height: 22px;
+}
+
+.icon-call-back::before {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.need-insurance-block .form-insurance .custom-button .btn .title {
+    padding: 0 5px 0 0
+}
+
+
+.footer-top_row_item .need-assitance_whatsapp>div:not(:last-child) {
+    border-right: 0;
+    padding-left: 2.3rem;
+    border-left: 1px solid rgb(255 255 255/30%);
+    margin-left: 2.3rem;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+header .container .navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu-block_row_row_listing_item_block .menu-listing ul li:not(:last-child) {
+    text-align: right;
+}
+
+.user-avatar .user-name {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.user-dropdown .icon {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.top-carousel .owl-top-carousel .owl-dots button:not(:last-child) {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.our-trusted-partners .owl-partners .owl-nav button.owl-prev,
+.our-trusted-partners .owl-partners .owl-nav button.owl-next {
+    transform: rotate(180deg);
+}
+
+.our-trusted-partners .owl-partners .owl-nav button.owl-prev {
+    margin-left: 0;
+    margin-right: -5%;
+}
+
+.our-trusted-partners .owl-partners .owl-nav button.owl-next {
+    margin-right: 0;
+    margin-left: -5%;
+}
+
+.customers-testimonials_carousel .item {
+    margin-right: 1px;
+}
+
+.how-can-we-help_buttons .nav .nav-buttons:not(:last-child) {
+    margin-left: 1.5rem;
+    margin-right: 0;
+}
+
+.how-can-we-help_sec_item .desc {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+.buy-insurance-image {
+    text-align: left !important;
+}
+
+.current-offers .carousel-navigation .owl-nav button:not(:last-child) {
+    margin-left: 1.6rem;
+    margin-right: 0;
+}
+
+.current-offers .carousel-navigation .owl-nav button {
+    transform: rotate(180deg);
+}
+
+
+.find-the-best__block__item--title .number {
+    margin-right: 0;
+}
+
+.find-the-best__block__item--title .title {
+    margin-right: 1.5rem !important;
+}
+
+.key-benefits-container .key-benefits-left {
+    padding-right: 2rem;
+}
+
+.car-offer-block--title {
+    padding-left: 5rem;
+}
+
+.car-offer-block--button {
+    margin-left: 25px;
+}
+
+.why-would-you-buy__list__item--header .icon {
+    margin-right: 0;
+    margin-left: 3.2rem;
+}
+
+.do-list_listing_item .title::after {
+    left: 0;
+    right: auto;
+}
+
+.get-a-quote-sec-block .get-a-quote-form .get-quote-input .phone-num .phone-input:after {
+    left: auto;
+    right: 0;
+}
+
+.footer-bottom .col:last-child .copyright {
+    text-align: left !important;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .page-title-block .page-title {
+    margin-left: 5rem;
+    margin-right: 0;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .label-block_label {
+    padding-right: 0;
+}
+
+.switch-toggle {
+    margin: 0 0 0 38px;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block {
+    padding: 0 2.5rem;
+    padding-left: 0;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block-phone .phone-num .dial-code {
+    border-left: 1px solid #E4E7EF;
+    padding: 0 0 0 6px;
+    border-right: none;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .submit-btn {
+    padding: 0 2.5rem;
+    padding-left: 0;
+}
+
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+    right: 1px;
+    left: auto;
+}
+
+.custom-popper.bs-popover-end>.popover-arrow::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0px;
+    right: 8px;
+    top: 50%;
+    border: 15px solid transparent;
+    border-right: 0;
+    border-left: 15px solid #fff;
+    transform: translate(calc(100% + 5px), -50%);
+    left: auto;
+}
+
+.custom-popper.bs-popover-end>.popover-arrow {
+    left: auto;
+}
+
+.custom-popper.popover {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block .select2-container .select2-selection .select2-selection__rendered {
+    padding-right: 50px;
+}
+
+.wizard-navigation_item--number {
+    margin-left: 2.3rem;
+    margin-right: 0;
+}
+
+.vechile-details-form .flag-icon.flag-icon-squared {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block .checkbox-big {
+    display: block;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block .checkbox-big p {
+    text-align: center;
+}
+
+.claims-block .switch-toggle {
+    margin: 0 0 0 30px;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block.confirm-details .label-block_label {
+    padding-right: 0;
+    padding-left: 60px;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .submit-btn {
+    padding: 0 0 0 2.5rem !important;
+}
+
+.icon-instagram,
+.icon-twitter,
+.icon-fb {
+    line-height: 20px;
+}
+
+.result-listing-title .right-col .title-desc {
+    text-align: left;
+}
+
+.result-listing__item__block_left {
+    border-left: 1px solid #EEF3FE;
+    border-right: 0;
+}
+
+.listing-ul ul li.check:before,
+.listing-ul ul li.cross:before {
+    right: 0;
+    left: auto;
+}
+
+.listing-ul ul li {
+    padding-left: 0;
+    padding-right: 2.3rem;
+}
+
+.result-listing__item__block_left .result-listing__item__block_top_row .partner-content_bottom_item:not(:last-child) {
+    margin-right: 0;
+    margin-left: 7rem;
+}
+
+.custom-checkbox .styled-checkbox+label:before {
+    margin-left: 9px;
+    margin-right: 0;
+}
+
+.result-listing__item .more-details .btn i {
+    padding-left: 1.1rem;
+    padding-right: 0;
+}
+
+.result-listing__item__block .result-listing__item__block-bottom-top .extra-addons .addons-text {
+    margin-right: 1.2rem;
+    margin-left: 0;
+}
+
+.result-listing__item__block .result-listing__item__block-bottom-top .listing-ul ul li {
+    padding-left: 0;
+}
+
+.result-listing__item__block_left .result-listing__item__block_top .comprehensive-third-prty_text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top-right-radius: 8px;
+    margin-right: 0;
+}
+
+
+.result-listing__item__block_left .result-listing__item__block_top {
+    padding-right: 1.9rem;
+    padding-left: 0;
+    padding-top: 2.9rem;
+}
+
+
+.result-listing__item__block_left {
+    position: relative;
+}
+
+.custom-checkbox .styled-checkbox:checked+label:after {
+    right: 13px;
+}
+
+.checkout .checkout-container .checkout-block .checkout-top__block .result-listing__item__block_top_row .partner-logo {
+    margin-left: 5.5rem;
+    margin-right: 0;
+}
+
+.checkout .checkout-container .checkout-block .checkout-top__block .result-listing__item__block_top_row .partner-content_bottom_item:not(:last-child) {
+    margin-right: 0;
+    margin-left: 6.8rem;
+}
+
+html[lang="ar"] .checkout .checkout-container .checkout-block .checkout-top__block .result-listing__item__block_top_row .partner-content_bottom_item .icon {
+    margin-left: 7px;
+    margin-right: 0;
+}
+
+.checkout .checkout-container .checkout-block .checkout-middle .partner-content_bottom_item:not(:last-child) {
+    margin-left: 7rem;
+    margin-right: 0;
+}
+
+.checkout-block-details .btn span {
+    margin-right: 4px;
+}
+
+.checkout-block-details {
+    margin-left: 0;
+    margin-right: 227px
+}
+
+html[lang="ar"] .disclaimer-block p {
+    padding-left: 83px;
+    padding-right: 0;
+}
+
+.checkout .checkout-container .checkout-block .checkout-bottom_block .checkout-left-row-block {
+    border-left: 1px solid #EEF3FE;
+    border-right: none;
+}
+
+.checkout-bottom-container .agree-terms-conditions .styled-checkbox+label span {
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+.agree-terms-conditions .styled-checkbox:checked+label:after {
+    right: 13px;
+    left: auto;
+}
+
+.agree-terms-conditions .styled-checkbox+label:before {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.compare-plans-table_block_item_row_item .desc-p ul li {
+    text-align: right;
+}
+
+.payment .payment-vechile_row .payment-row .payment-block-left .partner-detail--logo {
+    margin-left: 2.1rem;
+    margin-right: 0;
+}
+
+.payment .payment-vechile_row .payment-row .payment-block-left .partner-detail-block--item .icon {
+    margin-left: 7px;
+    margin-right: 0;
+}
+
+.payment .payment-vechile_row .payment-row .payment-right-right__form .card-details>.row .card-group select.form-control {
+    padding-right: 32px;
+}
+
+.update-password_item .icon {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+.set-page__row .left-column .sidebar_listing__item .sidebar_icon {
+    margin-left: 2rem;
+    margin-right: 0;
+}
+
+.set-page__row .right-column.docs-right .set-page_right_top .navigations-doc ul li {
+    margin-left: 3.8rem;
+    margin-right: 0;
+}
+
+.set-page__row .right-column .set-page_right_top .upload-doc .table tbody tr td .car-block .car-title {
+    margin-right: 1.5rem;
+    margin-left: 0;
+}
+
+.set-page__row .right-column.docs-right .set-page_right_top .upload-doc .table tbody tr td .document-type .select2-selection .select2-selection__rendered {
+    padding-right: 3.8rem;
+}
+
+.set-page__row .right-column .set-page_right_bottom .add-photo .title {
+    margin-right: 3.3rem;
+    margin-left: 0;
+}
+
+
+/* Modals */
+.login-signin-modal .modal-content .login-modal-row .left-col .sign-in-left .sign-in-content_footer_title {
+    margin-left: 0.5rem;
+    margin-right: 0;
+}
+
+.login-signin-modal .modal-content .login-modal-row .right-col .sign-in-right.otp_screen .form-block .otp_blocks_item:not(:last-child) {
+    margin-left: 1.8rem;
+    margin-right: 0;
+}
+
+.set-page__row .right-column .policies-listing_item {
+    margin-left: 2.7rem;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 2.7rem;
+}
+
+.set-page__row .right-column .policies-listing_item .policies-block {
+    border-right: 1px solid #F6F9FF;
+    border-left: none;
+}
+
+.set-page__row .right-column .policies-listing_item .policies-block_top {
+    padding-right: 2.4rem;
+}
+
+.set-page__row .right-column .policies-listing_item .policies-block_bottom .download-policy-button .btn:not(:last-child) {
+    margin-left: 1.7rem;
+    margin-right: 0;
+}
+
+.set-page__row .right-column .policies-listing_item .policies-block_bottom .download-policy-button .btn.download-policy img {
+    margin-right: 0;
+    margin-left: 1.3rem;
+}
+
+.set-page__row .right-column .policies-listing_item .policies-block_bottom .policy-num-doc .view-doc a .icon {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.set-page__row .right-column .policies-listing_item .policies-block_bottom .download-policy-button .btn {
+    margin: 1rem 0;
+}
+
+.set-page__row .right-column .policies-listing_item .policies-block_top .title {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+.set-page__row .right-column .set-page_right_top .select-car-details .title {
+    margin-left: 4.1rem;
+    margin-right: 0;
+}
+
+.form-insurance .fifth-column {
+    margin: 0;
+}
+
+
+.set-page__row .right-column .profile-section__item .profile-table_item .phone-number .country-code {
+    padding-left: 1.4rem;
+    padding-right: 0;
+    margin-left: 1.4rem;
+    margin-right: 0;
+    border-left: 2px solid #F6F6F6;
+    border-right: none;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .submit-btn {
+    padding: 0 2.5rem 0 0 !important;
+}
+
+.contact-sections__row__block_top .icon {
+    margin-left: 2rem;
+    margin-right: 0;
+}
+
+.contact-sections__row__block_button .whatsa-app-icon {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.phone-country-code.on-page .phone-num .phone-input:before {
+    right: 6px;
+}
+
+.faq-list .accordion-item .accordion-header button:after {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.inner-page-top__row__image {
+    padding-right: 40px;
+    padding-left: 0;
+    text-align: left !important;
+}
+
+.search-for-help_block .search-input {
+    margin-right: 3rem;
+    margin-left: 0;
+}
+
+.breadcumbs ul li:not(:last-child):after {
+    float: left;
+}
+
+.cant-find .social-on-page_list__item .social-icon {
+    margin-left: 1.3rem;
+    margin-right: 0;
+}
+
+.cant-find .social-on-page_list__item:not(:last-child) {
+    margin-left: 3.8rem;
+    margin-right: 0;
+}
+
+.help-center-detail-desc .desc ul li:before {
+    right: 0;
+    left: auto;
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.help-center-detail-desc .desc ul li {
+    padding-right: 3.2rem;
+    padding-left: 0;
+}
+
+html[lang="ar"] .member-details-block .member-details-header .member-details-heaader-icon {
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+html[lang="ar"] .member-details-block .member-details-footer h3 {
+    margin-right: 34px;
+    margin-left: 0;
+}
+
+
+html[lang="ar"] header .container .navbar .navbar-brand {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+html[lang="ar"] .member-details-added-header-left h3 {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+html[lang="ar"] .member-details-added-header-right .btn-actions:last-child {
+    margin-right: 10px;
+    margin-left: 0;
+    height: 40px;
+}
+
+html[lang="ar"] .member-details-added-body .attribute {
+    margin-left: 16px;
+    margin-right: 0;
+    text-align: right;
+}
+
+html[lang="ar"] .member-details-added-body-left {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+
+html[lang="ar"] .member-details-added-body-full {
+    width: 100%;
+  }
+
+html[lang="ar"] .declaration-list .confirm-details .switch-toggle {
+    margin: 0 0 0 30px;
+}
+
+html[lang="ar"] .declaration-form .agree-terms-conditions .styled-checkbox:checked+label:after {
+    right: 15px;
+}
+
+.declaration-form .agree-terms-conditions-checkbox p {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+.form-insurance .third-column,
+.form-insurance .fourth-column {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+html[lang="ar"] .member-details-added-header-right .btn-actions span {
+    margin-right: 7px;
+    margin-left: 0;
+    height: 40px;
+}
+
+.health-insurance-compare .result-listing__item__block_top_row {
+    padding-top: 20px;
+}
+
+.checkout .checkout-container.checkout-health-container .read-terms img {
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+.checkout .checkout-container.checkout-health-container .checkout-block .checkout-middle .partner-content_bottom_item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.thank-you .payment-row .thankyou-block-left .summary-block__table--item .left {
+    padding-left: 20px;
+    padding-right: 0;
+    text-align: right;
+}
+
+.right-col-create .agree-terms-conditions .styled-checkbox+label span {
+    text-align: right;
+}
+
+
+/* Arrows for select dropdowns */
+.need-insurance-block .form-insurance .form-selects .select2-selection .select2-selection__arrow,
+.need-insurance-block .form-insurance .form-input .input-block-phone .select2-container .select2-selection .select2-selection__arrow {
+    left: 0;
+    right: auto;
+}
+
+.need-insurance-block .form-insurance .form-input .input-block-phone .select2-container .select2-selection .select2-selection__rendered {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.get-a-quote-sec-block.get-quote-banner .get-a-quote-form .get-quote-input .select2-container .select2-selection .select2-selection__arrow {
+    left: 0;
+    right: auto;
+}
+
+.get-a-quote-sec-block.get-quote-banner .get-a-quote-form .get-quote-input .select2-container .select2-selection .select2-selection__rendered {
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.get-a-quote-sec-block .get-a-quote-form .get-quote-input .select2-container .select2-selection .select2-selection__arrow b {
+    left: 12px;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block .select2-container .select2-selection .select2-selection__arrow {
+    right: auto;
+    left: 20px;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block .select2-container .select2-selection .select2-selection__rendered {
+    padding-right: 25px;
+}
+
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+    right: auto;
+    left: 0;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block-phone .phone-num .dial-code .select2-container .select2-selection .select2-selection__rendered {
+    padding-right: 0;
+}
+
+.vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .currency-input-block .custom-input {
+    padding: 0 92px 0 25px;
+}
+
+.input-block .currency-input {
+    right: 32px;
+    left: auto;
+}
+
+.input-block .currency-input:after {
+    left: -16px;
+    right: auto;
+}
+
+.set-page__row .right-column .set-page_right_top .upload-doc .table tbody tr td .document-type .select2-selection .select2-selection__arrow {
+    left: 17px;
+    right: auto;
+}
+
+.set-page__row .right-column.docs-right .set-page_right_top .upload-doc .table tbody tr td .document-type .select2-selection .select2-selection__rendered {
+    padding-right: 15px;
+}
+
+.payment .payment-vechile_row .payment-row .payment-right-right__form .card-details>.row .card-group select.form-control {
+    background-position: 10%;
+    padding-right: 20px;
+}
+
+.phone-country-code .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-right: 7px;
+}
+
+.phone-country-code.phone-country-code-custom .select2-container--default .select2-selection--single .select2-selection__arrow {
+    left: -11px;
+}
+
+.set-page__row .right-column .set-page_right_top .select-car-details .select-car-box .select2-container .select2-selection .select2-selection__arrow {
+    left: 1.8rem;
+    right: auto;
+}
+
+.set-page__row .right-column .set-page_right_top .select-car-details .select-car-box .select2-container .select2-selection .select2-selection__rendered {
+    padding: 12px 18px 10px 37px;
+}
+
+.phone-country-code .select2-container--default .select2-selection--single .select2-selection__arrow {
+    margin: 0 11px 0 5px;
+}
+
+header .container .navbar .nav-item .header-right__language,
+header .container .navbar .navbar-collapse .navbar-nav .nav-item.dropdown.username {
+    display: none;
+}
+
+
+
+
+.need-insurance-fix .need-insurance-block .form-insurance .form-input .input-block-phone .select2-container .select2-selection .select2-selection__arrow b {
+    left: 2px;
+}
+
+.custom-checkbox-new .checkbox__label {
+    font-weight: 400;
+    font-size: 13.2576px;
+    line-height: 22px;
+    color: #222261;
+    padding: 0;
+    margin-top: 3px;
+    padding-right: 20px;
+}
+
+.custom-checkbox-new .checkbox__indicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1.5px solid #60607E;
+    border-radius: 3px;
+    width: 16px;
+    height: 16px;
+    transition: 125ms ease-out;
+}
+
+.menu-accordion-custom .accordion-body {
+    padding: 10px 20px 0 0;
+}
+
+
+.menu-accordion-custom .accordion-button::after {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.menu-accordion-custom .insurance-main_listing_item_bottom .sidebar_listing__item .sidebar_title {
+    text-align: right;
+}
+
+
+.user-dropdown>li a:hover {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.user-dropdown>li:before {
+    right: 0;
+}
+
+.parent-select {
+    /* can be any value */
+    width: 300px;
+    text-align: right;
+    direction: rtl;
+    position: relative;
+}
+
+.parent-select .select2-container--open+.select2-container--open {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+
+/* Back to top start*/
+.back-to-top {
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 100;
+    background-color: #222261;
+    box-shadow: 0 0.5rem 1.5rem 0.5rem rgb(0 0 0 / 8%);
+    transition: color 0.2s ease, background-color 0.2s ease;
+    border-radius: 0.475rem;
+}
+
+
+.sticky-menu {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: auto 0;
+    box-shadow: 0 2px 11px 0 rgb(0 5 10 / 8%);
+    z-index: 100;
+    padding: 15px 10px;
+}
+
+.back-to-top {
+    text-align: center;
+}
+
+.back-to-top img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    left: 0;
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+}
+
+
+.custom-select-dropdown i {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+header .get-a-quote-dropdown {
+    margin-right: 0;
+    left: 30px;
+    right: auto;
+}
+
+
+/* 17th october 2022 starts */
+
+.form-block .el-input__inner {
+    padding-right: 5px !important;
+    padding-left: 0 !important;
+}
+
+html[lang="ar"] .agree-terms-conditions .styled-checkbox+label:before {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+html[lang="ar"] .agree-terms-conditions .styled-checkbox:checked+label:after {
+    right: 13px;
+    left: auto;
+}
+
+html[lang="ar"] .checkout .checkout-container .checkout-block .checkout-bottom-container .checkout-bottom_block .summary {
+    padding: 1.6rem 4.9rem 3rem 5.8rem;
+}
+
+.checkout .checkout-container .checkout-block .checkout-top__block {
+    border-left: 1px solid #EEF3FE;
+    border-right: none;
+}
+
+html[lang="ar"] .checkout .checkout-container .checkout-block .checkout-top__block .result-listing__item__block_top_row .partner-logo {
+    margin-right: 0;
+    margin-left: 5.5rem;
+}
+
+html[lang="ar"] .checkout .checkout-container .checkout-block .checkout-top__block .result-listing__item__block_top_row .partner-content_bottom_item:not(:last-child) {
+    margin-right: 0;
+    margin-left: 6.8rem;
+}
+
+html[lang="ar"] .checkout .checkout-container .checkout-block .checkout-middle .partner-content_bottom_item:not(:last-child) {
+    margin-left: 7rem;
+    margin-right: 0;
+}
+
+html[lang="ar"] .checkout-block-details {
+    margin-right: 227px;
+    margin-left: 0;
+}
+
+html[lang="ar"] .result-listing__item__block .result-listing__item__block-bottom-top .extra-addons .addons-text {
+    margin-right: 1.2rem;
+    margin-left: 0;
+}
+
+html[lang="ar"] .wizard-navigation_item:not(:last-child) {
+    border-left: 1px solid #F2F6FF !important;
+    border-right: none !important;
+}
+
+html[lang="ar"] .special-feactures .listing-p ul {
+    padding-right: 2rem;
+    padding-left: 0;
+}
+
+html[lang="ar"] .result-listing__item__block .result-listing__item__block-bottom-top .extra-addons .addons-text div span strong {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+
+html[lang="ar"] .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block {
+    padding: 0 0 3.5rem 2.5rem;
+}
+
+html[lang="ar"] .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .submit-btn {
+    padding: 0 0 0 2.5rem !important;
+}
+
+html[lang="ar"] .wizard-navigation_item--number {
+    margin-right: 0 !important;
+}
+
+/* 17th october 2022 ends */
+
+html[lang="ar"] .el-select-dropdown__item.country-list-item span:last-child {
+    margin-right: 10px !important;
+    margin-left: 0px !important;
+}
+
+
+
+.el-input__wrapper {
+    border-radius: 5px !important;
+    width: 100% !important;
+    border: 2px solid #60607E;
+    height: 48px;
+    padding-left: 20px !important;
+    font-size: 20px !important;
+    box-shadow: 0 0 0 0px !important;
+}
+
+
+html[lang="ar"] .result-listing__item__block_left .result-listing__item__block_top .comprehensive-third-prty_text {
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: 0;
+    border-radius: 0px 0 34px 0 !important;
+    /* border-top-right-radius: 8px; */
+    margin-right: 0;
+}
+
+html[lang="ar"] .phAmount {
+    font-size: 15.5px;
+    color: #5B606B;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+html[lang="ar"] .form-block .input-block-phone .el-input__inner { padding-right: 22px !important;}
+html[lang="ar"] .el-input__prefix-inner .el-select.country { margin-right: 0 !important; margin-left: 12px !important;}
+
+html[lang="ar"] .el-select.country .el-input__suffix-inner>:first-child {
+    margin-left: 15px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .cant-find .social-on-page_list__item:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1900px) {
+    header .container .navbar .navbar-collapse .navbar-nav {
+        padding-right: 21rem;
+        padding-left: 0;
+    }
+
+    .result-listing__item__block .result-listing__item__block-bottom-top .row .road-assistant {
+        padding-right: 2.5rem;
+        padding-left: 0;
+    }
+
+    html[lang="ar"] .wizard-navigation {
+        padding-right: 0rem !important;
+        padding-left: 0 !important;
+    }
+
+}
+
+/* New CSS 5th October 2022 starts*/
+@media screen and (max-width: 1680px) {
+
+
+    .user-dropdown {
+        width: 230px;
+    }
+
+
+    .custom-button .btn .icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .custom-button .btn .icon-call-back:before {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .user-dropdown {
+        width: 200px;
+    }
+}
+
+/* New CSS 5th October 2022 ends*/
+
+@media (min-width: 1400px) {
+    header .container .navbar .header-right__contact {
+        margin-left: 3rem;
+        margin-right: 0;
+    }
+
+    header .container .navbar .header-right__language {
+        margin-left: 3rem;
+        margin-right: 0;
+    }
+
+    .mission-vision {
+        padding-left: calc(((100vw - 1175px) / 2) * 1);
+        padding-right: 0;
+    }
+
+    .join-thousands .title-ratings-row .right-col .ratings-block .ratings-block_row .ratings-block_desc {
+        margin-left: 0;
+        margin-right: 3.8rem;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-block-left .payment-partner-logo--item:not(:last-child) {
+        margin-left: 5rem;
+        margin-right: 0;
+    }
+
+    .set-page__row .right-column .set-page_right_top .upload-doc .table tbody tr td:not(:last-child) {
+        padding-left: 2.3rem;
+        padding-right: 0;
+    }
+
+    .map-contact {
+        padding-left: calc((100vw - 1175px)/2*1);
+        padding-right: 0;
+    }
+
+    @media (min-width: 1400px) {
+        .help-center-navigation .help-link:not(:last-child) {
+            margin-left: 1rem;
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .result-listing__item__block_left {
+        padding-right: 3.4rem;
+        padding-left: 0;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-block-left .summary {
+        padding-right: 0;
+        padding-left: 3.6rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .user-dropdown {
+        right: auto;
+        left: 0;
+    }
+
+    .user-dropdown:before {
+        left: 45px;
+        right: auto;
+    }
+
+
+    html[lang="ar"] .result-listing__item__block_left .result-listing__item__block_top_row .partner-content_bottom_item:not(:last-child) {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .mission-vision {
+        padding-left: calc(((100vw - 1040px) / 2) * 1);
+        padding-right: 0;
+    }
+
+    header .container .navbar .header-right__language {
+        margin-left: 3rem;
+    }
+
+    .help-center-navigation .help-link:not(:last-child) {
+        margin-left: 1rem;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) and (min-width: 1900px) {
+    header .container .navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu-block_row_row_listing_item_block .menu-listing.column-two ul {
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .mission-vision {
+        padding-left: calc((100vw - 910px)/2*1);
+        padding-right: 0;
+    }
+
+    header .container .navbar .header-right__language {
+        margin-left: 2rem;
+    }
+
+    header .container .navbar .header-right__contact__item.whats-app .header-icon {
+        margin-left: 1.3rem;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .footer-top_row_item .need-assitance_whatsapp .content a {
+        font-size: 1.5rem;
+    }
+
+    .checkout .checkout-container .checkout-block .checkout-middle .partner-content_bottom_item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .wizard-navigation_item--number {
+        margin-left: 1.3rem;
+    }
+
+    .health-insurance-compare .result-listing__item__block_left .result-listing__item__block_top_row .partner-content_bottom_item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .help-center-navigation .help-link:not(:last-child) {
+        margin-left: 0.8rem;
+        margin-right: 0;
+    }
+
+    .checkout-top .col-lg-10 {
+        width: 75%;
+    }
+
+    .checkout-top .col-lg-2 {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    header .container .navbar .header-right__language {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .wizard-navigation_item--number {
+        width: 28px;
+        height: 28px;
+        font-size: 13.7533px;
+    }
+}
+
+/* New CSS 5th October 2022 starts*/
+@media screen and (max-width: 1024px) {
+    header .get-a-quote-dropdown {
+        width: 320px;
+        left: 12px;
+    }
+
+    header .get-a-quote-dropdown_block {
+        padding: 20px;
+    }
+
+    header .get-a-quote-dropdown_block_form .title h3 {
+        font-size: 20px;
+    }
+
+    header .get-a-quote-dropdown_block_form .title {
+        margin-bottom: 1.2rem;
+    }
+}
+
+/* New CSS 5th October 2022 ends*/
+@media only screen and (min-width: 481px) {
+    header .container .navbar .header-right__contact__item.call-app .header-icon {
+        padding-right: 2.9rem;
+        margin-right: 0;
+        margin-left: 1.3rem;
+    }
+}
+
+@media (min-width: 992px) {
+    header .container .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.dropdown-toggle:after {
+        padding-right: 6px;
+        padding-left: 0;
+    }
+
+    header .container .navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu-block_row_row_listing_item_block .menu-listing.column-two ul li,
+    header .container .navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu-block_row_row_listing_item_block .menu-listing ul li {
+        text-align: right;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-right-right__form .input_radio label {
+        padding-right: 1.8rem;
+        padding-left: 0;
+    }
+
+    .partner-top .inner-page-bottom-item:not(:last-child) {
+        margin-left: 4.9rem;
+        margin-right: 0;
+    }
+
+    .partner-top .inner-page-bottom-item .call-app .social-icon {
+        margin-left: 1.3rem;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header .container .navbar .header-right {
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    header .container .navbar .header-right__contact__item.call-app .header-icon {
+        padding-right: 2rem;
+    }
+
+    header .container .navbar .header-right__contact__item.whats-app .header-icon {
+        margin-left: 2rem;
+    }
+
+    .do-list_listing_item .title {
+        padding-left: 50px;
+        padding-right: 0;
+    }
+
+    .car-offer-block--title h2 {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .wizard-navigation_item:not(:last-child) {
+        padding-left: 0.7rem;
+        margin-left: 0.7rem;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .wizard-navigation_item:not(:last-child) {
+        border-right: none !important;
+        border-left: 1px solid #F2F6FF;
+    }
+
+    .wizard-navigation_item--number {
+        margin-left: 1.3rem;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .label-block_label {
+        padding-left: 20px;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block.confirm-details .label-block_label {
+        padding-left: 10px;
+    }
+
+    .partner-content_bottom {
+        flex-direction: column;
+    }
+
+    .result-listing__item__block_left {
+        padding: 2rem 2rem 0;
+    }
+
+    .checkout-block-details {
+        margin: -2rem auto 0;
+    }
+
+    .disclaimer-block p {
+        padding: 0;
+    }
+
+    .checkout .checkout-container .checkout-block .checkout-middle .partner-content_bottom_item p, .checkout .checkout-container .checkout-block .checkout-middle .partner-content_bottom_item p.terms-conditions {
+        max-width: 200px;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-right-right__form .input_radio label {
+        padding-right: 1.8rem;
+        padding-left: 0;
+    }
+
+
+    .payment .payment-vechile_row .payment-row .payment-block-left .payment-partner-logo--item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .set-page__row .right-column .set-page_right_top .upload-doc .table tbody tr td.document-td {
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .submit-btn {
+        padding: 0 !important;
+    }
+
+    .faq-section .faq-row .side-bar-tab-nav .owl-faq .owl-nav button.owl-prev,
+    .help-center-navigation .owl-help-center .owl-nav button.owl-prev,
+    .how-can-we-help_buttons .nav .owl-nav button.owl-prev {
+        transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+
+    .faq-section .faq-row .side-bar-tab-nav .owl-faq .owl-nav button.owl-next,
+    .help-center-navigation .owl-help-center .owl-nav button.owl-next,
+    .how-can-we-help_buttons .nav .owl-nav button.owl-next {
+        transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+
+    .faq-row .side-bar-tab-nav {
+        border: none;
+    }
+
+    .faq-list .accordion-item .accordion-header button {
+        text-align: right;
+    }
+
+    .help-center-navigation .owl-help-center .owl-nav button.owl-prev,
+    .how-can-we-help_buttons .nav .owl-nav button.owl-prev {
+        margin-left: 0;
+        position: absolute;
+        right: -30px;
+        top: -13px;
+    }
+
+    .help-center-navigation .owl-help-center .owl-nav button.owl-next,
+    .how-can-we-help_buttons .nav .owl-nav button.owl-next {
+        margin-right: 0;
+        position: absolute;
+        left: -30px;
+        top: -13px;
+    }
+
+    .compare-listing__listem {
+        padding: 1.5rem;
+    }
+
+    .cant-find {
+        padding: 2rem;
+    }
+
+    .partner-top .inner-page-bottom-item .call-app .social-icon {
+        margin-right: 0;
+        margin-left: 1.3rem;
+    }
+
+    .partner-top .inner-page-bottom-item:not(:last-child) {
+        margin-right: 0;
+        margin-left: 2.5rem;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block {
+        padding: 0;
+    }
+
+    .wizard-navigation-health .wizard-navigation_item {
+        padding: 0 1.5rem;
+        margin: 0;
+    }
+
+    .wizard-navigation-health .wizard-navigation_item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .health-insurance-compare .result-listing__item__block_top_row {
+        padding-top: 0;
+    }
+
+    .checkout .checkout-container .checkout-block .checkout-middle .partner-content_bottom_item:not(:last-child) {
+        margin-left: 0;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-block-left .partner-detail {
+        margin-bottom: 3rem;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-right-right__form .card-details>.row .card-group select.form-control {
+        padding-right: 10px;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block .select2-container .select2-selection .select2-selection__arrow {
+        left: 5px;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block .select2-container .select2-selection .select2-selection__rendered {
+        padding-right: 10px;
+        padding-left: 15px;
+    }
+
+    .how-can-we-help_buttons .nav .nav-buttons:not(:last-child) {
+        margin-left: 0.7rem;
+    }
+
+    .how-can-we-help_buttons .nav .nav-buttons {
+        margin-bottom: 10px;
+    }
+
+    header .container .navbar .navbar-collapse .header-right__language {
+        display: block;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .container .navbar .nav-item .header-right__language,
+    header .container .navbar .navbar-collapse .navbar-nav .nav-item.dropdown.username {
+        display: block;
+    }
+
+    header .container .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.user-name::after {
+        display: inline-block;
+        vertical-align: 0.255em;
+        content: "\e905";
+        margin-left: 1.5px;
+        font-family: 'icomoon' !important;
+        border: none;
+        font-size: 0.6rem;
+        font-weight: 700;
+        position: absolute;
+        transition: 0.4s all ease;
+        transform: rotate(-90deg);
+        color: #C4C4C4;
+        top: 20px;
+        left: 28px;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-block-left .payment-partner-logo {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .help-center-detail-desc .desc ul li {
+        padding-right: 1.6rem;
+    }
+
+    .help-center-detail-desc .desc ul {
+        margin: 0;
+    }
+
+    .how-can-we-help_buttons .nav-hover .nav .nav-buttons {
+        margin-bottom: 0;
+    }
+
+    .checkout .checkout-container .checkout-block .checkout-middle .partner-content_bottom_item p, .checkout .checkout-container .checkout-block .checkout-middle .partner-content_bottom_item p.terms-conditions {
+        max-width: 100%;
+    }
+
+    html[lang="ar"] .checkout .checkout-container .checkout-block .checkout-bottom-container .checkout-bottom_block .summary {
+        padding: 2.1rem;
+    }
+
+    html[lang="ar"] .checkout .checkout-container .checkout-block .checkout-top__block {
+        border-left: none;
+    }
+
+    .checkout-top .col-lg-10 {
+        width: 100%;
+    }
+
+    .checkout-top .col-lg-2 {
+        width: 100%;
+    }
+
+    html[lang="ar"] .checkout-block-details {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    html[lang="ar"] .wizard-navigation_item--number {
+        margin-right: 0 !important;
+    }
+
+    html[lang="ar"] .input-block .checkbox-row .row .col-lg-3:nth-child(3) {
+        margin-bottom: 0 !important;
+    }
+
+    html[lang="ar"] .input-block .row-input .col-sm-4 {
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .result-listing__item__block_left .result-listing__item__block_top_row .partner-logo {
+        margin-left: 4rem;
+        margin-right: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .how-can-we-help_buttons .nav .nav-buttons {
+        margin-bottom: 0px;
+    }
+
+    .footer-bottom .col:last-child .copyright {
+        text-align: center !important;
+    }
+
+    .footer-bottom .col {
+        text-align: center;
+    }
+
+    .result-listing__item__block .result-listing__item__block-bottom-top {
+        padding: 26px 12px;
+    }
+
+    .result-listing__item__block_left {
+        padding: 2rem 12px 0;
+    }
+
+    .result-listing__item__block_left .result-listing__item__block_top_row .partner-content_bottom_item:not(:last-child) {
+        margin-left: 0;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-block-left .payment-partner-logo {
+        margin-top: 4rem;
+    }
+
+    .set-page__row .right-column .policies-listing_item {
+        padding-left: 0;
+        margin-left: 0
+    }
+
+    header .container .navbar .header-right__language,
+    header .header-right__user {
+        display: none;
+    }
+
+}
+
+/* New CSS 5th October 2022 starts*/
+@media (max-width: 767px) {
+    header .container .navbar .header-right {
+        border-right: 0;
+
+    }
+
+    /* New CSS 5th October 2022 starts*/
+    .latest-research_row_item {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .latest-research_row_item .latest-research_row_item_image {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .latest-research_row_item_image img {
+        width: 100%;
+    }
+
+    .buy-any-insurance .col-md-4 {
+        margin-bottom: 20px !important;
+    }
+
+    .car-offer .car-offer-block--image .car-pattern1 {
+        display: none;
+    }
+
+    .car-offer-block {
+        padding-right: 3rem;
+    }
+
+    .car-offer-block--title h2 {
+        font-size: 19px;
+        line-height: 27px;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    /* New CSS 5th October 2022 ends*/
+}
+
+/* New CSS 5th October 2022 ends*/
+@media screen and (max-width: 580px) {
+    .wizard-navigation_item:not(:last-child) {
+        padding-left: 2rem;
+        margin-left: 2rem;
+    }
+
+    .wizard-navigation_item--number {
+        margin-left: 0;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block,
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .submit-btn {
+        padding: 0;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .page-title-block .page-title {
+        margin-left: 0;
+    }
+
+    /* .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .input-block .select2-container .select2-selection .select2-selection__rendered {
+        padding-right: 30px;
+    } */
+
+    .confirm-details .switch-toggle,
+    .claims-block .switch-toggle {
+        margin: 18px 0 0 0;
+    }
+
+    .result-listing__item__block_left .result-listing__item__block_top {
+        padding: 2.9rem 0 0 0;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .submit-btn {
+        padding: 0 !important;
+    }
+
+    .wizard-navigation_item:not(:last-child) {
+        border: none !important;
+        margin: 0 !important;
+    }
+
+    html[lang="ar"] .wizard-navigation_item:not(:last-child) {
+        border-left: none !important;
+    }
+
+    .wizard-navigation-health .wizard-navigation_item:not(:last-child) {
+        padding: 0 2rem !important;
+        margin: 0 !important;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    header .container .navbar .header-right__contact__item.whats-app .header-icon {
+        margin-left: 1.5rem;
+    }
+
+    header .container .navbar .header-right__contact__item.call-app .header-icon {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    header .container .navbar .header-right__contact__item.call-app .header-icon:after {
+        display: none;
+    }
+
+    header .container .navbar .header-right__contact__item.whats-app .header-icon {
+        margin-left: 0;
+    }
+
+    header .container .navbar .header-right__contact__item.call-app .header-icon {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .inner-page-title h3 span {
+        display: inline !important;
+    }
+
+    .why-would-you-buy__list__item--header .icon {
+        margin-left: 2.2rem;
+    }
+
+    .set-page__row .right-column .set-page_right_bottom .add-photo .title {
+        margin-right: 0;
+    }
+
+    .car-offer-block--title {
+        padding-left: 3rem;
+    }
+
+    .do-list_listing_item {
+        padding: 1.5rem;
+    }
+
+    .wizard-navigation_item:not(:last-child) {
+        padding-left: 1.5rem;
+        margin-left: 1.5rem;
+
+    }
+
+    .wizard-navigation-health .wizard-navigation_item {
+        padding: 0 1rem;
+        margin: 0;
+    }
+
+    /* header .container .navbar .navbar-toggler:after {
+        content: '';
+        position: absolute;
+        background: #E2EBFF;
+        width: 1px;
+        height: 27px;
+        top: -2px;
+        right: -2px;
+    } */
+
+    header .get-a-quote-dropdown {
+        width: 320px;
+        left: 12px;
+    }
+
+    header .get-a-quote-dropdown_block {
+        padding: 20px;
+    }
+
+    html[lang="ar"] .wizard-navigation-health .wizard-navigation_item {
+        padding: 0 1.8rem;
+    }
+
+    .wizard-navigation-health .wizard-navigation_item:not(:last-child) {
+        margin-left: 1rem !important;
+        padding-left: 1.2rem !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .set-page__row .right-column .profile-section__item .profile-table_item p {
+        text-align: right;
+    }
+
+    .wizard-navigation-health .wizard-navigation_item:not(:last-child) {
+        padding: 0 1.8rem !important;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .wizard-navigation_item:not(:last-child) {
+        padding-left: 1rem;
+        margin-left: 1rem;
+    }
+
+    .vechile-detail-section .vechile-detail-container .vechile-detail_row .vechile-details-form .vechile-details-list .form-block .estimated-value {
+        padding: 0 2rem;
+    }
+
+    .vechile-list .page-title-block .result-tabs-nav .nav-tabs .compare-link {
+        padding: 1rem 1rem 0.8rem;
+        font-size: 13px;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-right-right__form .pay-by-card__block--icon img:not(:last-child) {
+        margin-right: 5px;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-right-right__form .pay-by-card__block--icon img {
+        height: 20px;
+    }
+
+    .payment .payment-vechile_row .payment-row .payment-right-right__form .pay-by-card__block {
+        padding: 0.8rem 1.8rem 0.8rem;
+    }
+
+    .wizard-navigation_item:not(:last-child) {
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+
+    }
+
+    header .get-a-quote-dropdown {
+        left: 10px;
+    }
+
+    header .get-a-quote-dropdown {
+        width: 300px;
+    }
+}
+
+/**
+* More details
+*/
+
+html[lang="ar"] .result-listing__item .more-details {
+    margin-top: -2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -15px;
+}
+
+.country .el-input__inner {
+    direction: ltr;
+}
+
+.el-scrollbar__view.el-select-dropdown__list {
+    direction: ltr;
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('#{$font-path}/icomoon.eot?fyk26');
+    src:  url('#{$font-path}/icomoon.eot?fyk26#iefix') format('embedded-opentype'),
+      url('#{$font-path}/icomoon.ttf?fyk26') format('truetype'),
+      url('#{$font-path}/icomoon.woff?fyk26') format('woff'),
+      url('#{$font-path}/icomoon.svg?fyk26#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+@font-face{
+    font-family: 'objective';
+    src: url('#{$font-path}/Objective-Regular.otf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'objective';
+    src: url('#{$font-path}/Objective-Medium.otf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'objective';
+    src: url('#{$font-path}/Objective-Light.otf') format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'objective';
+    src: url('#{$font-path}/Objective-Bold.otf') format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}

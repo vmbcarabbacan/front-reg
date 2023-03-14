@@ -1,0 +1,220 @@
+.inner-page-top {
+    padding: 4rem 0 5rem;
+    border-bottom: 1px solid #E2EBFF;
+
+    &__row {
+        &__image {
+            padding-left: 40px;
+            .icon-on-image {
+                padding: 1.5rem;
+                bottom: 47px;
+                background: #0061FF;
+                @include media-breakpoint-up(xl){
+                width: 94px;
+                height: 94px;
+                }
+                @include media-breakpoint-down(xl){
+                width: 74px;
+                height: 74px;
+                }
+                left: -47px;
+                @include flex_conter;
+
+                img {
+                    max-height: 100%;
+                }
+            }
+        }
+        .inner-page-title{
+            padding-top: 30px;
+        }
+
+        
+    }
+}
+
+.inner-page-title {
+    @include media-breakpoint-down(md){
+        margin-bottom: 3rem;
+    }
+    
+
+    .heading {
+        margin-bottom: 1.9rem;
+
+        h1 {
+            font-weight: 700;
+            color: #222261;
+            @include media-breakpoint-up(xl){
+            font-size: 4.2rem;
+            line-height: 5rem;
+            }
+            
+            @include media-breakpoint-down(xl){
+            font-size: 3rem;
+            line-height: 4rem;
+            }
+
+            span {
+                display: block;
+            }
+        }
+    }
+
+    .desc {
+        p {
+            @include media-breakpoint-up(xl){
+            font-size: 17.5px;
+            line-height: 28px;
+            }
+        }
+    }
+}
+
+.inner-page-plain{
+    padding: 7rem 0;
+    .inner-page-title{
+        .heading{
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+.content-title{
+    h3{
+        @include media-breakpoint-up(xl){
+        font-size: 2.9rem;
+        }
+        
+        @include media-breakpoint-down(xl){
+        font-size: 2.2rem;
+        }
+        color: #222261;
+    }
+    &.bg-line{
+        margin-bottom: 1.7rem;
+        h3{
+            @include media-breakpoint-up(xl){
+            line-height: 4.7rem;
+            }
+           
+            @include media-breakpoint-down(xl){
+            line-height: 3.5rem;
+            }
+        }
+    }
+    &:not(.bg-line){
+        margin-bottom: 1.2rem;
+        h3{
+            @include media-breakpoint-up(xl){
+            line-height: 4.4rem;
+            }
+            
+            @include media-breakpoint-down(xl){
+            line-height: 3rem;
+            }
+        }
+    }
+}
+
+.page-desc{
+    p{
+        @include media-breakpoint-up(xxl){
+        font-size: 16.5px;
+        line-height: 30px;
+        }
+        color: #222261; 
+        &:not(:last-child){
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.about-block{
+    padding: 5rem 0;
+}
+
+.mission-vision{
+    background: #FAFCFF;
+    // @include media-breakpoint-only(md){
+    //     padding: 0 calc((100vw - 660px)/2*1);
+    //     }
+    //     @include media-breakpoint-down(md){
+    //         padding: 0 3rem;
+    //     }
+    @include media-breakpoint-down(md){
+        // padding-right: 4rem;
+    }
+    @include media-breakpoint-only(md){
+        padding-right: calc((100vw - 670px)/2*1);
+    }
+        @include media-breakpoint-only(lg){
+        padding-right: calc((100vw - 910px)/2*1);
+        }
+        @include media-breakpoint-only(xl){
+        padding-right: calc((100vw - 1040px)/2*1);
+        }
+        @include media-breakpoint-up(xxl){
+        padding-right: calc((100vw - 1175px)/2*1);
+        }
+    &_row{
+        .row{
+            @include media-breakpoint-up(xxl){
+                --bs-gutter-x: 8.5rem;
+            }
+           
+            @include media-breakpoint-down(xxl){
+                --bs-gutter-x: 3.5rem;
+            }
+        }
+        .left-col{
+            @include media-breakpoint-up(lg){
+                width: 51%;
+            }
+        }
+        
+        .right-col{
+            @include media-breakpoint-up(lg){
+                width: 49%;
+            }
+        }
+        &_image{
+            
+            img{
+            border-radius: 0px 122px 0px 0px;
+        }
+    }
+
+    &_content{
+        padding-top: 3rem;
+        padding-bottom : 3rem;
+        @include media-breakpoint-down(md){
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @include media-breakpoint-only(sm){
+            max-width: 540px;
+            margin: auto;
+        }
+        @include media-breakpoint-only(md){
+            padding-left: calc((100vw - 670px)/2*1);
+        }
+        &_item{
+            &:not(:last-child){
+                margin-bottom: 4.3rem;
+            }
+        }
+    }
+
+    }
+}
+
+.bottom-about-block{
+    @include media-breakpoint-up(lg){
+    padding: 6.6rem 0;
+    }
+    
+    @include media-breakpoint-down(lg){
+    padding: 3.5rem 0;
+    }
+}

@@ -1,0 +1,212 @@
+.banner-top__content {
+
+    .health-banner-block {
+        @include media-breakpoint-up(xxl) {
+            width: 690px;
+        }
+
+        .pattern2 {
+            top: 49%;
+            left: -30px;
+            transform: translateY(-50%);
+            right: -20px;
+            bottom: auto;
+        }
+    }
+}
+
+.why-should-you {
+    .left_col {
+        @include media-breakpoint-up(lg) {
+            width: 42.666667%;
+        }
+
+        .key-benefits-left__ul {
+            @include media-breakpoint-up(xxl) {
+                padding-right: 7rem;
+            }
+        }
+    }
+}
+
+.things-to-consider {
+    border-top: 1px solid #E2EBFF;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    margin-top: 2rem;
+
+    &_row {
+        &>.row {
+            &.gx-lg-5 {
+                @include media-breakpoint-up(xxl) {
+                    --bs-gutter-x: 10rem;
+                }
+            }
+        }
+
+        &_item {
+            .number {
+                margin-right: 1.6rem;
+                width: 39px;
+                height: 39px;
+                border: 2px solid #0061FF;
+                color: #0061FF;
+                padding: 8px 3px 2px;
+                border-radius: 50%;
+                font-weight: 500;
+                font-size: 17.5px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 1.7rem;
+            }
+
+            .descrip-p {
+                p {
+                    font-size: 16.5px;
+                    line-height: 22px;
+                    color: #222261;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+}
+
+.individual-plaans {
+    border-top: 1px solid #F2F2F2;
+
+    .additonal-cover-options_container {
+        @include media-breakpoint-up(xxl){
+        padding-left: calc((100vw - 1175px)/2*1);
+        padding-right: 0;
+        }
+
+        @include media-breakpoint-only(lg){
+            padding-left: calc((100vw - 910px)/2*1);
+            padding-right: 0;
+            }
+            @include media-breakpoint-only(xl){
+            padding-left: calc((100vw - 1040px)/2*1);
+            padding-right: 0;
+            }
+            @include media-breakpoint-down(md){
+                padding: 0 3rem;
+            }
+
+        &>.row {
+            flex-direction: row-reverse;
+        }
+    }
+}
+
+.get-over {
+    margin-top: 5.7rem;
+
+    &-block {
+        .car-pattern-full {
+            left: 0;
+            top: 31px;
+            z-index: -1;
+
+            img {
+                display: block;
+
+                &:not(:last-child) {
+                    margin-bottom: 2.2rem;
+                    margin-left: 4.6rem;
+                }
+            }
+        }
+
+        padding-top: 2.7rem;
+        padding-bottom: 4.9rem;
+        background-color: #004FCF;
+
+        @include media-breakpoint-up(lg) {
+            padding-right: 7.5rem;
+            padding-left: 9.5rem;
+        }
+
+        @include media-breakpoint-down(lg) {
+            padding-right: 2.5rem;
+            padding-left: 2.5rem;
+        }
+
+        z-index: 9;
+        border-radius: 9px;
+
+        &--title {
+            h2 {
+                @include media-breakpoint-up(lg) {
+                    font-size: 31px;
+                    line-height: 42px;
+                }
+
+                @include media-breakpoint-down(lg) {
+                    font-size: 22px;
+                    line-height: 34px;
+                }
+
+                color: #fff;
+            }
+        }
+
+        &_row {
+            margin-top: 2.6rem;
+
+            .get-a-quote {
+                .btn-quote {
+                    @include media-breakpoint-up(xl) {
+                        width: 183px;
+                        height: 53px;
+                        font-size: 18px;
+                    }
+
+                    @include media-breakpoint-down(xl) {
+                        width: 160px;
+                        font-size: 16px;
+                        height: 45px;
+                    }
+
+                    border-radius: 50px;
+                    padding-top: 6px;
+                    font-weight: 700;
+                }
+            }
+
+            .right-row {
+                @include media-breakpoint-up(xl) {
+                    width: 19%;
+                }
+            }
+
+            &-logos {
+                &>.row {
+                    @include media-breakpoint-up(xl){
+                    --bs-gutter-x: 2.7rem;
+                    }
+
+                    div[class*="col"] {
+                        @include media-breakpoint-down(lg) {
+                            margin-bottom: 2.2rem;
+                        }
+
+                        .get-over-block_row-logos-item {
+                            height: 65px;
+                            background-color: #fff;
+                            border-radius: 9px;
+                            padding: 0.7rem;
+                            @include flex_conter;
+
+                            img {
+                                max-height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

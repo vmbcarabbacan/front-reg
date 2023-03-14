@@ -1,0 +1,19 @@
+h4 {
+    font-size: 2.45rem;
+}
+
+h6{
+    @include breakpoint(min-desktop-large){
+    font-size: 16.5px;
+    }
+    
+    @include breakpoint(max-desktop-large){
+    font-size: 14.5px;
+    }
+}
+
+p {
+    font-size: 15.5px;
+    color: #5B606B;
+    line-height: 26px;
+}
